@@ -1,65 +1,35 @@
-# My Portfolio Website - Overview 🚀
+# Nishant Ghadge — Portfolio
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+Personal portfolio of **Nishant Ghadge**, Fullstack Developer (React.js · Next.js · Node.js · TypeScript) based in Pune, India.
 
----
+- **LinkedIn:** [linkedin.com/in/nishantghadge](https://www.linkedin.com/in/nishantghadge)
+- **Email:** nishant7962@gmail.com
 
-## ⚠️ Usage Notice
+## Tech Stack
 
-This project is shared for learning purposes only.
+React · TypeScript · Vite · GSAP (ScrollTrigger, ScrollSmoother, SplitText) · Three.js / React Three Fiber · Rapier physics
 
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
+## Run locally
 
-If you use parts of the code, you must provide proper credit linking back to the original repository.
+```bash
+npm install
+npm run dev
+```
 
-Build your own version — don’t just copy.
+Production build:
 
-— Moncy Yohannan
+```bash
+npm run build
+npm run preview
+```
 
----
+## Editing content
 
-## 🛠️ Instructions
+All portfolio content (profile, about, skills, experience, projects) lives in
+[`src/data/portfolio.ts`](src/data/portfolio.ts). The resume download is served from
+`public/Nishant_Ghadge_Resume.pdf`.
 
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
+## Credits
 
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
-
----
-
-## ⚙️ Tech Stack
-
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
-
----
-
-## 🎨 Assets Usage
-
-Some 3D assets included in this repository are free to use for learning purposes.
-
-However:
-
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
-
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
-
----
-
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
-
----
-
-## 📄 License
-
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
-
-See the LICENSE file for full details
-
+Design and 3D experience based on [Moncy Yohannan's portfolio](https://github.com/MoncyDev/Portfolio-Website),
+used with permission. See [LICENSE](LICENSE) for the original license terms.
