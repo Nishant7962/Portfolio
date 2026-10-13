@@ -46,6 +46,14 @@ a.contact-social {
   gap: 10px;
   opacity: 0.5;
 }
+.contact-flex p.contact-credit {
+  font-size: 13px;
+  opacity: 0.5;
+  margin: 0;
+}
+.contact-credit a {
+  text-decoration: underline;
+}
 @media only screen and (max-width: 1600px) {
   .contact-section h3 {
     font-size: 50px;

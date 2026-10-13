@@ -85,6 +85,21 @@
 .work-info > p {
   width: 90%;
 }
+.work-features h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 10px;
+}
+.work-features ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.work-features li {
+  font-weight: 200;
+  color: #adacac;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
 .work-image {
   display: flex;
   width: 100%;
@@ -150,8 +165,12 @@
   .work-info p {
     font-size: 13px;
   }
-  .work-info h4 {
+  .work-info h4,
+  .work-features h4 {
     font-size: 15px;
+  }
+  .work-features li {
+    font-size: 13px;
   }
   .work-box {
     width: 450px;
